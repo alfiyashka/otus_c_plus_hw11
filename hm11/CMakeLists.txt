@@ -10,7 +10,6 @@ configure_file(version.h.in version.h)
 
 
 
-
 set ( HW11_INCLUDE
    src/TcpConnection.hpp
    src/ConnectionManager.hpp
@@ -19,6 +18,7 @@ set ( HW11_INCLUDE
    src/SQLCommandParser.hpp
    src/SQLExecutor.hpp
    src/SQLTableRow.hpp
+   src/SQLOutput.hpp
 )
 set ( HW11_SOURCES   
    src/TcpConnection.cpp
